@@ -3,8 +3,24 @@
     <string name="pig">pig</string>
     <string name="steemy">SteemY</string>
     <string name="status">Sauna Status</string>
-    <string name="temp">Temp</string>
     <string name="map">Map</string>
     <string name="title_activity_maps">Map</string>
+    <string name="humid">Humidity</string>
+    <string name="batt">Battery Level</string>
+    <string name="lum">Lumens</string>
+    <string name="pressure">Pressure</string>
+    <string name="two">cabin</string>
+    <string name="temp">Temperature</string>
+    <string name="saunaStatus">Sauna Status</string>
     <string name="cabin">cabin</string>
+
+    <string name="testTemp">57°C</string>
+    <string name="testBatt">85%</string>
+    <string name="testLum">1000LUX</string>
+    <string name="testPress">1100HpA</string>
+    <string name="testHumidity">75%</string>
+
+
+    <string name="tempView">tempView</string>
+    <string name="temp_numbers">temp numbers</string>
 </resources>

@@ -23,4 +23,6 @@
     <color name="b3">#bcd2dd</color>
     <color name="b4">#ededee</color>
     <color name="b5">#fd520e</color>
+
+    <color name="tintColor">#c43e3535</color>
 </resources>

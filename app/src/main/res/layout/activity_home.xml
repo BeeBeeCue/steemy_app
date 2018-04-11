@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.knutsen.steemy.HomeActivity"
     android:orientation="vertical"
-    android:background="@color/mainBack"
+    android:background="@color/b2"
 
     >
 
@@ -18,8 +18,106 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="108dp"
-        android:text="@string/map"
-        android:background="#55ffffff"
+        android:background="@drawable/pin"
+        android:layout_margin="20dp"
 
         />
+
+    <TextView
+        android:id="@+id/tempView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/map"
+        android:layout_toStartOf="@+id/map"
+        android:background="@drawable/thermometer"
+        android:contentDescription="@string/temp_numbers"
+        android:gravity="center"
+        android:text="@string/testTemp"
+        android:textColor="@color/b4"
+        android:textSize="28sp"
+        android:fontFamily="@font/handwriting"
+        android:backgroundTint="@color/tintColor"
+        />
+
+    <TextView
+        android:id="@+id/batteryView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/map"
+        android:layout_alignStart="@+id/tempView"
+
+        android:gravity="center"
+        android:text="@string/testBatt"
+        android:textSize="28sp"
+        android:textColor="@color/b4"
+        android:background="@drawable/battery"
+        android:backgroundTint="@color/tintColor"
+        android:fontFamily="@font/handwriting"
+        />
+
+    <TextView
+        android:id="@+id/lumView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignTop="@+id/map"
+        android:layout_marginEnd="11dp"
+        android:background="@drawable/sun"
+        android:backgroundTint="@color/tintColor"
+        android:fontFamily="@font/handwriting"
+        android:gravity="center"
+        android:text="@string/testLum"
+        android:textColor="@color/b4"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/humView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/map"
+        android:layout_alignTop="@+id/pressView"
+        android:background="@drawable/humidity"
+        android:backgroundTint="@color/tintColor"
+        android:fontFamily="@font/handwriting"
+        android:gravity="center"
+        android:text="@string/testHumidity"
+        android:textColor="@color/b4"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/pressView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/lumView"
+        android:layout_alignTop="@+id/batteryView"
+        android:background="@drawable/pressure"
+        android:backgroundTint="@color/tintColor"
+        android:fontFamily="@font/handwriting"
+        android:gravity="center"
+        android:text="@string/testPress"
+        android:textColor="@color/b4"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/saunaStatus"
+        android:textSize="50sp"
+        android:fontFamily="@font/handwriting"
+
+        />
+
+    <ImageView
+        android:id="@+id/cabinMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/batteryView"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/cabin"
+        android:scaleX="0.5"
+        android:scaleY="0.5"/>
 </android.widget.RelativeLayout>

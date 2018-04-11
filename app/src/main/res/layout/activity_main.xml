@@ -34,7 +34,6 @@
         android:layout_below="@+id/steemy"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="123dp"
-
         android:contentDescription="@string/cabin"
         app:srcCompat="@drawable/cabin" />
 
