@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.knutsen.steemy.HomeActivity"
     android:orientation="vertical"
-    android:background="@color/b2"
+    android:background="@color/a2"
 
     >
 
@@ -107,6 +107,7 @@
         android:layout_marginTop="50dp"
         android:text="@string/saunaStatus"
         android:textSize="50sp"
+        android:textColor="@color/b5"
         android:fontFamily="@font/handwriting"
 
         />

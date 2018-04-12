@@ -16,7 +16,7 @@
 
     <string name="testTemp">57°C</string>
     <string name="testBatt">85%</string>
-    <string name="testLum">1000LUX</string>
+    <string name="testLum">1000  lm</string>
     <string name="testPress">1100HpA</string>
     <string name="testHumidity">75%</string>
 
