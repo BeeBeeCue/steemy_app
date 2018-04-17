@@ -118,7 +118,20 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/batteryView"
         android:layout_alignParentStart="true"
-        app:srcCompat="@drawable/cabin"
+        android:contentDescription="@string/cabin"
         android:scaleX="0.5"
-        android:scaleY="0.5"/>
+        android:scaleY="0.5"
+        app:srcCompat="@drawable/cabin" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/humView"
+        android:layout_alignStart="@+id/humView"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/handwriting"
+        android:text="@string/_1050m"
+        android:textColor="@color/b3"
+        android:textSize="30sp" />
 </android.widget.RelativeLayout>
